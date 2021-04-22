@@ -1,8 +1,6 @@
 import Button from './Button'
-const Header = () => {
-    const onClick = () => {
-        console.log('click')
-    }
+const Header = ({onAdd}) => {
+   
     return (
         <header className='header'>
             <h1>Task tracker </h1>
